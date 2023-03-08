@@ -2,6 +2,10 @@
 
 This project is a web application that generates stories based on a user-specified topic. It uses the OpenAI API to create a narrative that incorporates elements of character development, setting, and plot to engage and entertain the reader. The generated story is at least 1000 words long and uses descriptive language and vivid imagery to bring the story to life.
 
+## Deployment
+
+This application has been deployed on an AWS EC2 server and can be accessed using the following link: http://43.205.255.65:8080/
+
 ## Installation
 
 To use this project, follow these steps:
