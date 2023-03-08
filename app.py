@@ -1,7 +1,7 @@
 import openai
 from flask import Flask, request, render_template
 
-app = Flask(__name__, template_folder="C:/Users/arnav/st_templates")
+app = Flask(__name__, template_folder="templates")
 
 openai.api_key = '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'
 
@@ -10,7 +10,7 @@ def generate_prompt(title):
 
 @app.route("/")
 def home():
-    return render_template("index4.html")
+    return render_template("index.html")
 
 @app.route("/generate_story", methods=["POST"])
 def generate_story():
@@ -24,7 +24,7 @@ def generate_story():
         temperature=1
     )
     message = completions.choices[0].text
-    return render_template("index4.html", message=message)
+    return render_template("index.html", message=message)
 
 if __name__ == "__main__":
     app.run(port=5000, threaded=False)
