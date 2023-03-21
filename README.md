@@ -18,4 +18,4 @@ To use this project, follow these steps:
 
 ## Usage
 
-Once the application is running, you can access it by navigating to `http://localhost:5000` in your web browser. The home page allows you to enter a topic for your story. After submitting the topic, the application generates a story based on the topic using the OpenAI API. The generated story is displayed on the same page.
+Once the application is running, you can access it by navigating to `http://localhost:8080` in your web browser. The home page allows you to enter a topic for your story. After submitting the topic, the application generates a story based on the topic using the OpenAI API. The generated story is displayed on the same page.
